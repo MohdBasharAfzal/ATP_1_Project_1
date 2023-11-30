@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["**/*.ts"],
+  "compilerOptions": {
+    "noPropertyAccessFromIndexSignature": false,
+    "sourceMap": false,
+    "types": ["cypress"]
+  }
+}
